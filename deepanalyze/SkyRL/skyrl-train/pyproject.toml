@@ -28,7 +28,7 @@ dependencies = [
     "accelerate",
     "torchdata",
     "omegaconf",
-    "ray==2.48.0",
+    "ray==2.54.0",
     "peft",
     "debugpy==1.8.0",
     "hf_transfer",
@@ -67,7 +67,7 @@ deepspeed = [
 ]
 dev = [
     "ruff==0.11.9",
-    "black==24.10.0",
+    "black==26.3.1",
     "pytest>=6.2.5",
     "pytest-asyncio",
     "pre-commit",
@@ -81,15 +81,15 @@ docs = [
     "sphinx-autobuild>=2021.3.14"
 ]
 vllm = [
-    "vllm==0.9.2",
+    "vllm==0.14.1",
     "torch==2.7.0",
     "flashinfer-python",
     "torchvision"
 ]
 sglang = [
-    "sglang[srt,openai,torch_memory_saver]==0.4.8.post1",  # 0.4.9.post1 causes non-colocate weight broadcast to hang
+    "sglang[srt,openai,torch_memory_saver]==0.5.9",  # 0.4.9.post1 causes non-colocate weight broadcast to hang
     "flashinfer-python",
-    "torch==2.7.1",
+    "torch==2.8.0",
     "torchvision",
 ]
 
