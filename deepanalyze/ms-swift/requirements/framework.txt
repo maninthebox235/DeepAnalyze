@@ -6,7 +6,7 @@ binpacking
 charset_normalizer
 cpm_kernels
 dacite
-datasets>=3.0,<3.4
+datasets>=5.1.0,<5.2
 einops
 fastapi
 gradio>=3.40.0
@@ -31,7 +31,7 @@ sortedcontainers>=1.5.9
 tensorboard
 tiktoken
 tqdm
-transformers>=4.33,<4.53
+transformers>=5.20.2,<5.21
 transformers_stream_generator
 trl>=0.15,<0.20
 uvicorn

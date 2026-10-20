@@ -1,10 +1,10 @@
 accelerate==1.9.0
 aiohappyeyeballs==2.6.1
-aiohttp==3.12.14
+aiohttp==3.14.4
 aiosignal==1.4.0
 airportsdata==20250706
 annotated-types==0.7.0
-anyio==4.9.0
+anyio==4.14.2
 astor==0.8.1
 async-timeout==5.0.1
 attrs==25.3.0
@@ -67,7 +67,7 @@ multidict==6.6.3
 nest-asyncio==1.6.0
 networkx==3.4.2
 ninja==1.11.1.4
-nltk==3.9.1
+nltk==3.10.3
 numba==0.61.2
 numpy==2.1.2
 nvidia-cublas-cu12==12.4.5.8
@@ -146,13 +146,13 @@ torch==2.6.0
 torchaudio==2.6.0
 torchvision==0.21.0
 tqdm==4.67.1
-transformers==4.53.2
+transformers==5.20.2
 triton==3.2.0
 typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2
 unicorn==2.1.3
-urllib3==2.5.0
+urllib3==2.8.0
 uvicorn==0.35.0
 uvloop==0.21.0
 watchfiles==1.1.0
@@ -162,7 +162,7 @@ xgboost==3.0.4
 xgrammar==0.1.21
 yarl==1.20.1
 zipp==3.23.0
-vllm==0.8.5
+vllm==0.30.0
 # 数据处理与分析
 pandasql
 pyjanitor
